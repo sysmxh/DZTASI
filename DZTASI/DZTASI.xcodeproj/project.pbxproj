@@ -13,6 +13,7 @@
 		1888459D1D42EDEA0013DE4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1888459B1D42EDEA0013DE4C /* Main.storyboard */; };
 		1888459F1D42EDEA0013DE4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1888459E1D42EDEA0013DE4C /* Assets.xcassets */; };
 		188845A21D42EDEA0013DE4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188845A01D42EDEA0013DE4C /* LaunchScreen.storyboard */; };
+		188845AF1D42EF0A0013DE4C /* DZTASIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188845AE1D42EF0A0013DE4C /* DZTASIViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1888459E1D42EDEA0013DE4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		188845A11D42EDEA0013DE4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		188845A31D42EDEA0013DE4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188845AD1D42EF0A0013DE4C /* DZTASIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZTASIViewController.h; sourceTree = "<group>"; };
+		188845AE1D42EF0A0013DE4C /* DZTASIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZTASIViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		188845911D42EDEA0013DE4C /* DZTASI */ = {
 			isa = PBXGroup;
 			children = (
+				188845A91D42EEF60013DE4C /* DZTASI */,
 				188845951D42EDEA0013DE4C /* AppDelegate.h */,
 				188845961D42EDEA0013DE4C /* AppDelegate.m */,
 				188845981D42EDEA0013DE4C /* ViewController.h */,
@@ -77,6 +81,39 @@
 				188845931D42EDEA0013DE4C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		188845A91D42EEF60013DE4C /* DZTASI */ = {
+			isa = PBXGroup;
+			children = (
+				188845AA1D42EEF60013DE4C /* model */,
+				188845AB1D42EEF60013DE4C /* view */,
+				188845AC1D42EEF60013DE4C /* ViewController */,
+			);
+			path = DZTASI;
+			sourceTree = "<group>";
+		};
+		188845AA1D42EEF60013DE4C /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		188845AB1D42EEF60013DE4C /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		188845AC1D42EEF60013DE4C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				188845AD1D42EF0A0013DE4C /* DZTASIViewController.h */,
+				188845AE1D42EF0A0013DE4C /* DZTASIViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +189,7 @@
 				1888459A1D42EDEA0013DE4C /* ViewController.m in Sources */,
 				188845971D42EDEA0013DE4C /* AppDelegate.m in Sources */,
 				188845941D42EDEA0013DE4C /* main.m in Sources */,
+				188845AF1D42EF0A0013DE4C /* DZTASIViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
